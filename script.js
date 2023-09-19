@@ -11,6 +11,6 @@ function SubmitAnswer(event)
     let input = document.querySelector('input');
     
     if(input.value === "page 2"){
-        location.replace('page2');
+        location.replace('page2.html');
     }
 }
