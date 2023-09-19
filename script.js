@@ -13,4 +13,7 @@ function SubmitAnswer(event)
     if(input.value === "page 2"){
         location.replace('page2.html');
     }
+    else{
+        alert("pushed");
+    }
 }
