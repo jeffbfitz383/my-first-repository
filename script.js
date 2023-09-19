@@ -5,15 +5,3 @@ h2.textContent = "This content added by JavaScript";
 document.querySelector("body").appendChild(h2);
 
 
-function submitAnswer(event)
-{
-    var trigger = event.srcElement;
-    let input = document.querySelector('input');
-    
-    if(input.value === "page 2"){
-        location.replace('page2.html');
-    }
-    else{
-        alert("pushed");
-    }
-}
