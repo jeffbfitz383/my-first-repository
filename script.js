@@ -5,7 +5,7 @@ h2.textContent = "This content added by JavaScript";
 document.querySelector("body").appendChild(h2);
 
 
-function SubmitAnswer(event)
+function submitAnswer(event)
 {
     var trigger = event.srcElement;
     let input = document.querySelector('input');
